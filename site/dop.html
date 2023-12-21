@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обратная связь</title>
+  <link rel="stylesheet" href="styledop.css">
+</head>
+<body>
+
+<div class="form-container">
+  <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+    <label for="name">ФИО:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label>Откуда узнали о нас:</label>
+    <input type="radio" name="source" value="radio1"> Радио 1
+    <input type="radio" name="source" value="radio2"> Радио 2
+    <input type="radio" name="source" value="radio3"> Радио 3
+
+    <label for="type">Тип обращения:</label>
+    <select id="type" name="type" required>
+      <option value="Жалоба">Жалоба</option>
+      <option value="Предложение">Предложение</option>
+    </select>
+
+    <label for="message">Текст сообщения:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <label for="attachments">Вложения:</label>
+    <input type="file" id="attachments" name="attachments">
+
+    <label for="gdpr">Согласие на обработку персональных данных:</label>
+    <input type="checkbox" id="gdpr" name="gdpr" required>
+
+    <input type="submit" value="Отправить">
+  </form>
+</div>
+
+</body>
+</html>
