@@ -1,0 +1,120 @@
+    body {
+      margin: 0; /*вншний отступ*/
+      padding: 0; /*Внутренний отступ*/
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      padding: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .banner {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: top;
+      height: 250px;
+      display: flex;
+      align-items: center; /*Выравнивание по вертикали(Flexbox)*/
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+      border: 3px solid #333;
+
+    }
+    
+    .news {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /*выравнивание по горизонтали(flexbox)*/
+      padding: 20px;
+    }
+    
+    .news .article {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    
+    .news .article img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .videos .video {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    
+    .videos .video img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .streamers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .streamers .streamer {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    
+    .streamers .streamer img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .h2 {
+        margin: 15px;
+    }
+.lanews {
+  display: flex;
+  justify-content: center;
+}
